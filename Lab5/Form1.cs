@@ -12,7 +12,7 @@ namespace Lab5
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            double E = 10, R = 1200, C = 20 * Math.Pow(10, -9);
+            double E = 5, R = 2000, C = 150 * Math.Pow(10, -9);
             double delta_t = 2 * R * C;
             Circuit c1 = new Circuit(E, R, C, delta_t);
             c1.Euler_Yavnuy();
